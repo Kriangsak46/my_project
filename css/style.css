@@ -1,0 +1,10 @@
+.video-container {
+    text-align: center; /* จัดให้อยู่กลางหน้าจอ */
+}
+
+.video-container video {
+    display: inline-block; /* ทำให้วิดีโอเรียงข้างกัน */
+    width: 45%; /* ปรับขนาดวิดีโอให้พอดี */
+    height: auto; /* รักษาอัตราส่วน */
+    margin: 5px; /* เพิ่มระยะห่างระหว่างวิดีโอ */
+}
